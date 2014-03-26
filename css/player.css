@@ -1,0 +1,41 @@
+body {
+    background: black;
+    transition: background-color 400ms linear;
+}
+body.loading {
+    background-color: maroon;
+    transition: background-color 400ms linear;
+}
+
+#connectDialog {
+    font-family: Helvetica Neue, Helvetica, Arial;
+    font-size: 14px;
+}
+
+#connectDialog .dialog {
+    margin: 200px auto;
+    width: 500px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+#connectDialog .dialog .dialog-header {
+    font-weight: bold;
+    padding: 2px 15px;
+    border-bottom: 1px solid #666;
+}
+
+#connectDialog .dialog .dialog-body {
+    padding: 10px;
+}
+
+#connectDialog .dialog .form-group label {
+    float: left;
+    width: 120px;
+    margin-top: 4px;
+}
+
+#connectDialog .dialog .dialog-footer {
+    padding: 2px 15px;
+    border-top: 1px solid #666;
+}

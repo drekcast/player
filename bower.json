@@ -1,0 +1,10 @@
+{
+  "name": "drekcast-player",
+  "version": "0.3.0",
+  "dependencies": {
+    "jquery": "1.9",
+    "lodash": "~2.4.1",
+    "drekcast-client-core": "../client-core",
+    "pace": "~0.5.1"
+  }
+}
